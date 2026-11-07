@@ -1,0 +1,44 @@
+{
+  "table": [
+    {
+      "condition": "clean",
+      "success %": 84.0,
+      "95% CI": "71-92",
+      "episodes": 50,
+      "attention on label region": 0.0923,
+      "ratio vs area": 0.74
+    },
+    {
+      "condition": "blank",
+      "success %": 80.0,
+      "95% CI": "67-89",
+      "episodes": 50,
+      "attention on label region": 0.1008,
+      "ratio vs area": 0.81
+    },
+    {
+      "condition": "random",
+      "success %": 66.0,
+      "95% CI": "52-78",
+      "episodes": 50,
+      "attention on label region": 0.1426,
+      "ratio vs area": 1.14
+    },
+    {
+      "condition": "typo",
+      "success %": 56.0,
+      "95% CI": "42-69",
+      "episodes": 50,
+      "attention on label region": 0.1337,
+      "ratio vs area": 1.07
+    }
+  ],
+  "auroc": {
+    "clean vs typo (detect injection)": 1.0,
+    "blank vs typo (text-specific)": 1.0,
+    "random vs typo (meaning-specific)": 0.1016,
+    "typo: failure vs success": 0.564935064935065
+  },
+  "n_action_steps": 10,
+  "box": "0.30,0.74,0.70,0.94"
+}

@@ -1,0 +1,5 @@
+condition,success %,95% CI,episodes,attention on label region,ratio vs area
+clean,84.0,71-92,50,0.0923,0.74
+blank,80.0,67-89,50,0.1008,0.81
+random,66.0,52-78,50,0.1426,1.14
+typo,56.0,42-69,50,0.1337,1.07
