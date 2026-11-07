@@ -188,8 +188,6 @@ The AUROC of 1.00 is partly a result of the **paired design**: every condition s
 
 ## 4. Findings
 
-> *TODO (Swajan): rewrite this section in your own words.*
-
 1. An end-to-end VLA policy is sensitive to **task-irrelevant printed text** in its camera view, even when the text is not attached to any object and the instruction is unchanged.
 2. The effect comes from the **text**, not from occlusion (blank label ≈ no label), and it grows with how meaningful the text is.
 3. The effect depends strongly on **which word** is shown: one phrase ("ORANGE JUICE") caused most of the damage.
