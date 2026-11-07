@@ -268,4 +268,4 @@ No model training is needed.
 
 Swajan Golder · swajan.cse.ku@gmail.com
 
-*Some Part of the Code developed with the assistance of an AI coding tool*
+*The code was developed with the assistance of an AI coding tool. The experiments were run, checked and interpreted by the author.*
