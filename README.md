@@ -147,6 +147,12 @@ In **none** of the inspected failures did the arm move towards the orange juice 
 
 *(This analysis is qualitative: frames were saved for one episode per task per run, so only 4 failed `typo` episodes were inspected.)*
 
+| No label (success) | "ORANGE JUICE" label (failure) |
+|---|---|
+| ![](figs/clean_chocolate_pudding_ep24_ok_noheat.gif) | ![](figs/typo_chocolate_pudding_ep24_fail_noheat.gif) |
+
+More failures with the label: [alphabet soup: hovers, never grasps](figs/typo_alphabet_soup_ep0_fail_noheat.gif) · [milk: knocks the carton over](figs/typo_milk_ep21_fail_noheat.gif)
+
 ### 3.4 Attention: text pulls attention onto the label
 
 | Condition | Attention on label region | Ratio vs label area |
@@ -263,3 +269,4 @@ No model training is needed.
 ## Contact
 
 Swajan Golder · swajan.cse.ku@gmail.com
+*Some Part of the Code developed with the assistance of an AI coding tool
