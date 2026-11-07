@@ -2,11 +2,11 @@
 
 **Typographic distractors against a lightweight end-to-end Vision-Language-Action (VLA) policy: SmolVLA on LIBERO-Object, with attention-based explanation**
 
-*Self-directed proof of concept by Swajan Golder, built in two days on a free Google Colab T4 GPU.*
+*Self-directed proof of concept by Swajan Golder, run on a free Google Colab T4 GPU.*
 
 ---
 
-## TL;DR
+## Key findings
 
 - A white label with a **printed object name** placed on the floor of the robot's camera view reduced SmolVLA's task success from **84% to 56%** (50 episodes per condition, p ≈ 0.004).
 - A **blank label of the same size had no meaningful effect** (80%), so the drop is caused by the **text**, not by covering part of the scene.
